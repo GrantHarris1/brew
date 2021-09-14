@@ -3,20 +3,27 @@
 1. user.InsertsKcup
 2. user.insertsWater
 3. user.pressStart
+<br>
 IF KcupInserted()
+    
     IF water >= waterMin 
         
-    brewCoffee <br>
-            Else: Beep <br>
-                Dispense Coffee <br>
+        brewCoffee 
+           
+            Else: Beep 
+               
+                Dispense Coffee 
+                   
                     End Program
-    <br>
-    ___
+    
+___
 
 
-    Functions : KcupInserted() 
-<br>
-                waterMin()
+    Functions : 
+    
+    KcupInserted() 
+
+    waterMin()
 
     Var: Kcup, water, pressStart
 
